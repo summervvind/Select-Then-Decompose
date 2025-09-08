@@ -45,6 +45,7 @@ python run.py \
     --parallel_num 10 \
     --is_test True \ 
     --confidence_threshold 0.7
+```
 ---
 
 ### ⚙️ Hyperparameters
