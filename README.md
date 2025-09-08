@@ -21,11 +21,10 @@
     ```
     Set your API_KEY and BASE_URL in openai_call.py and utils.py
 
-
 ## 🏃 Get Started
     Run the run.py script for evaluting any method on any benchmark.
     
-    ### 🔧 Example Usage
+### 🔧 Example Usage
 
     ```bash
     python run.py \
@@ -49,7 +48,7 @@
     ---
 
 
-    ### ⚙️ Hyperparameters
+### ⚙️ Hyperparameters
 
     The following command-line arguments can be used to configure the task decomposition experiment.
 
