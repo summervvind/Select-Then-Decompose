@@ -1,6 +1,42 @@
 # Select-Then-Decompose: From Empirical Analysis to Adaptive Selection Strategy for Task Decomposition in Large Language Models.
 
 ---
+## 📰 News
+
+-🎉 Updates (2025-9-15) Our paper is accepted for oral presentation!
+-🚩 Updates (2025-8-21) Our paper is accpected to EMNLP 2025 Main!
+
+## 👋🏻 Literature Review
+
+Recent work has explored how large language models (LLMs) perform task decomposition to enhance reasoning and problem-solving. Existing methods can be broadly categorized along three core dimensions (colored):
+
+-Decomposition–first vs. interleaved, depending on whether reasoning is planned before or during execution (e.g., Plan-and-Solve vs. ReAct).
+
+-Implicit vs. explicit, referring to whether decomposition happens within a single LLM call or through multi-step prompting (e.g., CoT vs. Plan-and-Execute).
+
+-Linear vs. DAG structures, determining whether subtasks form a sequential chain or a graph that supports parallel execution.
+
+![Review](assets/task_decomposition_category.pdf)
+
+## 📊 Empirical Analysis
+
+### Performance-Cost Dilemma
+
+![Analysis1](assets/analysis_1.png)
+
+**Takeaway I**: The existing task decomposition approaches are confronted with a performance-cost dilemma.
+
+### The Relationship between Tasks and Approaches
+
+![Analysis2](assets/analysis_2.png)
+
+**Takeaway II**: Task characteristics determine the sequence, calling form, and topology of task decomposition.
+
+### Impact of Model Discrepancies
+
+![Analysis3](assets/analysis_3.png)
+
+**Takeaway III**: Scaling the execution model yields greater performance gains than scaling the decomposition model, with the reasoning model further enhancing the execution stage.
 
 ## 🚀 Setup
 
@@ -66,4 +102,6 @@ The following command-line arguments can be used to configure the task decomposi
 | `--category` | `str` | `writing` | `writing`, `roleplay`, `extraction`, `math`, `coding`, `reasoning`, `stem`, `humanities` | Category for `MT_Bench` experiment (ignored for other benchmarks). |
 | `--confidence_threshold` | `float` | `0.7` | - | Validation threshold for `select_then_decompose` method. |
 
+
+```
 
