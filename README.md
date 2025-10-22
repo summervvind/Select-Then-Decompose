@@ -103,9 +103,6 @@ The following command-line arguments can be used to configure the task decomposi
 | `--category` | `str` | `writing` | `writing`, `roleplay`, `extraction`, `math`, `coding`, `reasoning`, `stem`, `humanities` | Category for `MT_Bench` experiment (ignored for other benchmarks). |
 | `--confidence_threshold` | `float` | `0.7` | - | Validation threshold for `select_then_decompose` method. |
 
-
-```
-
 ## 📚 Citation
 
 If you find this repo useful, please consider citing our paper as follows:
