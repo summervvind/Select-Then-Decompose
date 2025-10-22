@@ -3,6 +3,7 @@
 ---
 ## 📰 News
 
+- 🎉 Updates (2025-10-22) Our paper can be found from [arixiv](https://arxiv.org/abs/2510.17922)
 - 🎉 Updates (2025-9-15) Our paper is accepted for oral presentation!
 - 🚩 Updates (2025-8-21) Our paper is accpected to EMNLP 2025 Main!
 
@@ -105,3 +106,17 @@ The following command-line arguments can be used to configure the task decomposi
 
 ```
 
+## 📚 Citation
+
+If you find this repo useful, please consider citing our paper as follows:
+```bibtex
+@misc{liu2025selectthendecomposeempiricalanalysisadaptive,
+      title={Select-Then-Decompose: From Empirical Analysis to Adaptive Selection Strategy for Task Decomposition in Large Language Models}, 
+      author={Shuodi Liu and Yingzhuo Liu and Zi Wang and Yusheng Wang and Huijia Wu and Liuyu Xiang and Zhaofeng He},
+      year={2025},
+      eprint={2510.17922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.17922}, 
+}
+```
